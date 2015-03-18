@@ -1,0 +1,1 @@
+function tempController(t){t.flagInput=function(e){t.input=e},t.$watch("celsius",function(e){"C"==t.input&&(t.fahrenheit=9*e/5+32,t.fahrenheit=+t.fahrenheit.toFixed(0))}),t.$watch("fahrenheit",function(e){"F"==t.input&&(t.celsius=5*(e-32)/9,t.celsius=+t.celsius.toFixed(1))})}angular.module("app",[]).controller("tempController",tempController);
