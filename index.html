@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app>
+
+  <head> 
+    <link rel="stylesheet" href="style.css" />   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>   
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-controller="tempController">
+    
+    <input type="number" ng-model="celsius" ng-change="flagInput('C')"/> Celsius<br/>
+    <input type="number" ng-model="fahrenheit" ng-change="flagInput('F')"/> Fahrenheit<br/>
+    
+  </body>
+
+</html>
