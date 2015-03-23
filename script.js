@@ -36,7 +36,7 @@ function myController($scope) {
   
   $scope.$watch('kg', function(mass) {
     if ($scope.input == 'kg') {
-      $scope.lbs = mass / 0.454
+      $scope.lbs = mass / 0.454;
       $scope.lbs = +$scope.lbs.toFixed(3);
     }
   });
@@ -50,7 +50,7 @@ function myController($scope) {
   
    $scope.$watch('hectares', function(area) {
     if ($scope.input == 'hectares') {
-      $scope.acres = area * 2.47105
+      $scope.acres = area * 2.47105;
       $scope.acres = +$scope.acres.toFixed(5);
     }
   });
