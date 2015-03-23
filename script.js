@@ -28,7 +28,7 @@ function myController($scope) {
     }
   });
   
-  $scope.$watch('ft', function(value) {
+  $scope.$watch('feet', function(value) {
     if ($scope.input == 'ft') {
       $scope.meters = value / 3.2808399;
     }
