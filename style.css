@@ -1,57 +1,47 @@
 /* Styles go here */
 
 
-div#myTabContent.tab-content {
+#myTabContent {
 	padding-left: 11em;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-  background-color: #fff!important;
+  background-color: #fff;
   font-weight: bold;
 }
 
-ul#myTab1.nav.nav-tabs li {
+#myTab1 li {
 	font-family: 'Raleway';
 }
 	    		
-ul#myTab1.nav.nav-tabs li#first > a {
+#first > a {
 	background-color: #ED5565; 
 	color: #79131D;
 }
 
-ul#myTab1.nav.nav-tabs li#second > a {
+#second > a {
 	background-color: #FC6E51; 
 	color: #A8331B;
 }
 
-
-ul#myTab1.nav.nav-tabs li#third > a {
+#third > a {
 	background-color: #FFCE54; 
 	color: #9B7320;
 }
 
-ul#myTab1.nav.nav-tabs li#fourth > a {
+#fourth > a {
 	background-color: #A0D468; 
 	color: #537C25;
 }
 
-ul#myTab1.nav.nav-tabs li#fifth > a {
+#fifth > a {
 	background-color: #48CFAD; 
 	color: #1B6653;
 }
 
-ul#myTab1.nav.nav-tabs li#sixth > a {
+#sixth > a {
 	background-color: #4FC1E9; 
 	color: #286379;
-}
-
-ul#myTab1.nav.nav-tabs.nav-justified a {
-	background-color: #37BC9B; 
-	color: #26816a;
-}
-
-ul#myTab1.nav.nav-tabs.nav-justified a:hover {
-	color: white;
 }
 
 
