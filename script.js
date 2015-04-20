@@ -10,7 +10,7 @@ function myController($scope) {
     if ($scope.input == 'C') {
       $scope.fahrenheit = temp * 9/5 + 32;
       // No decimals
-      $scope.fahrenheit =  +$scope.fahrenheit.toFixed(0);
+      $scope.fahrenheit = +$scope.fahrenheit.toFixed(0);
     }
   });
   
@@ -18,19 +18,21 @@ function myController($scope) {
     if ($scope.input == 'F') {
       $scope.celsius = (temp - 32) * 5/9;
       // Only one decimal
-      $scope.celsius =  +$scope.celsius.toFixed(1);
+      $scope.celsius = +$scope.celsius.toFixed(1);
     }
   });
 
     $scope.$watch('meters', function(value) {
     if ($scope.input == 'm') {
       $scope.feet = value * 3.2808399;
+      $scope.feet = +$scope.feet.toFixed(4);
     }
   });
   
   $scope.$watch('feet', function(value) {
     if ($scope.input == 'ft') {
       $scope.meters = value / 3.2808399;
+      $scope.meters = +$scope.meters.toFixed(4);
     }
   });
   
